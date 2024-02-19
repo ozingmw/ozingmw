@@ -24,15 +24,15 @@
 ## 자기개발
   * 인공지능:
     + 강화학습:
-      - https://github.com/ozingmw/RL_study
-      - https://github.com/ozingmw/RL_finance
+      - [개인 공부, 책, 프로젝트](https://github.com/ozingmw/RL_study)
+      - [강화학습 + 주식](https://github.com/ozingmw/RL_finance)
     + 딥러닝:
-      - https://github.com/ozingmw/DeepLearningBackup
+      - [개인 공부](https://github.com/ozingmw/DeepLearningBackup)
     + 머신러닝:
-      - https://github.com/ozingmw/Hands-On_ML_Repo
+      - [핸즈온 머신러닝 책](https://github.com/ozingmw/Hands-On_ML_Repo)
       
   * 알고리즘:
-    + https://github.com/ozingmw/AlgorithmTest
+    + [프로그래머스 + 백준](https://github.com/ozingmw/AlgorithmTest)
 
   * 기타:
     + ~~https://github.com/ozingmw/JSP_Spring_Archive~~
