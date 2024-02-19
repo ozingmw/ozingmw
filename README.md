@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+프로젝트:
+
+자기개발:
+
+개발 스택:
+
+
 <!--
 **ozingmw/ozingmw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
