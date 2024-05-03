@@ -18,7 +18,7 @@
     - ~~[경진대회 baseline](https://github.com/ozingmw/korean_ai_competition)(임시파일)~~
       
 * 개인 프로젝트<br>
-  + 물체 중심점 찾기(24.01-)
+  + 물체 중심점 찾기(24.01-24.03)
     - [배추 중심점 찾기](https://github.com/ozingmw/yolo_baechu)(YOLO)
 
 ## 자기개발
