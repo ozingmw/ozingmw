@@ -4,7 +4,7 @@
 * 팀 프로젝트
   
   + 캡스톤(24.03-24.12)
-    - [인공지능 일기 앱](https://github.com/ozingmw/cpastone)(감정분석)
+    - [인공지능 일기 앱](https://github.com/ozingmw/capstone)(감정분석)
       
   + AI VTUBER(24.01-24.03)
     - [백엔드](https://github.com/ozingmw/RIYA_backend)(통신 및 DB), [크롤러](https://github.com/ozingmw/Chat_Crowler)(채팅 수집), [메시지 관리](https://github.com/ozingmw/MSG_Controller)(LLM, 메모리 및 답변 등 메시지 관리), [음성](https://github.com/ozingmw)(TTS)(예정)<br>
