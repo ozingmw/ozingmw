@@ -1,5 +1,10 @@
 # JongHun_Shin
 
+## 실무
+* Robocare
+  + AI Agent 케미
+  + AI 오마카세 로봇 로미
+
 ## 프로젝트
 * 팀 프로젝트
   
