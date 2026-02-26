@@ -12,7 +12,8 @@ Robotics × AI × Human Interaction
   **"Evaluation of LLM Models for Emotional Dialogue with the Elderly"**  
   *Proceedings of the IEIE Summer Conference*, 2025  
   - 🏷 Emotional Dialogue · LLM Evaluation · Elderly Care Robotics  
-  - 📎 Paper: (추가 예정)  
+  - 🔗 Official Proceedings: IEIE (대한전자공학회)  
+  - 🇰🇷 Korean Database: DBpia  
   - 💻 Related Work: Robocare AI Agent Project  
 
 ---
