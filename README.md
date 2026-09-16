@@ -7,14 +7,40 @@ Robotics × AI × Human Interaction
 
 ## 📄 Publications
 
+### 2026
+- **Jonghun Shin**, Kooksung Jun, Deokwon Lee
+  **"Improving Tool-Call Robustness in Companion Robot Agents with ASR N-Best and Clarification"**
+  *2026 IEEE 35th International Conference on Robot and Human Interactive Communication (RO-MAN)*
+  - 🎤 Presented at IEEE RO-MAN 2026 · Kitakyushu, Japan
+  - 🧠 ASR N-best 후보와 신뢰도, 한 차례의 명확화 질문을 활용한 음성 기반 동반 로봇 에이전트의 도구 선택 신뢰성 개선
+  - 📊 영어 발화 440개·22개 도구 범주, 5회 반복 실험에서 평균 정확도 **91.77% → 93.23% (+1.46%p)**
+  - 🏷 LLM Agents · ASR Robustness · Tool Selection · Human–Robot Interaction
+  - 🔗 [Official Conference Program](https://ras.papercept.net/conferences/conferences/ROMAN26/program/ROMAN26_ContentListWeb_2.html)
+
 ### 2025
-- **Shin, JongHun**, Lee, Deokwon  
-  **"Evaluation of LLM Models for Emotional Dialogue with the Elderly"**  
-  *Proceedings of the IEIE Summer Conference*, 2025  
-  - 🏷 Emotional Dialogue · LLM Evaluation · Elderly Care Robotics  
-  - 🔗 Official Proceedings: IEIE (대한전자공학회)  
-  - 🇰🇷 Korean Database: DBpia  
-  - 💻 Related Work: Robocare AI Agent Project  
+- **JongHun Shin**, Deokwon Lee
+  **"Evaluation of LLM Models for Emotional Dialogue with the Elderly"**
+  *Proceedings of the IEIE Summer Conference*, 2025
+  - 🏷 Emotional Dialogue · LLM Evaluation · Elderly Care Robotics
+  - 🔗 Official Proceedings: IEIE (대한전자공학회)
+  - 🇰🇷 Korean Database: DBpia
+  - 💻 Related Work: Robocare AI Agent Project
+
+---
+
+## 💡 Patents
+
+### 2026
+
+- **JongHun Shin**, Kooksung Jun, Wonjun Lee, Deokwon Lee  
+  **"Robot for User Intent-Based Agent and Method Performed by the Robot"**  
+  *Korean Patent Application · Robocare Co., Ltd.*
+  - 🇰🇷 사용자 의도 기반 에이전트를 탑재한 로봇 및 사용자 의도 기반 에이전트를 탑재한 로봇에 의해 수행되는 방법
+  - 📋 출원번호: **10-2026-0073742** · 출원일: **2026.04.23**
+  - 🧠 발화·행동·환경의 멀티모달 정보와 개인화 이력을 결합한 **표면 의도 및 잠재 의도 추론**
+  - ⚙️ 사용자 반응과 예상 만족도에 따른 **작업 우선순위 결정 및 동적 작업 계획 갱신**
+  - 💬 사용자 의도·정서·환경에 적응하는 응답 정책과 로봇 동작 제어, 낮은 확신도에서의 확인 질문 및 작업 보류
+  - 🏷 Multimodal AI · Intent Inference · Personalized Agents · Adaptive Planning · Human–Robot Interaction
 
 ---
 
