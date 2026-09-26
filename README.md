@@ -79,6 +79,21 @@ Robotics × AI × Human Interaction
 
 ### 👨‍💻 Personal Projects
 
+#### 📈 AutoTrading — Autonomous Multi-Agent Investment System
+
+[GitHub Repository](https://github.com/ozingmw/AutoTrading) · [Architecture](https://github.com/ozingmw/AutoTrading/blob/main/docs/ARCHITECTURE.md)
+
+한국·미국 주식을 대상으로 **조사 → 투자 판단 → 주문 실행 → 결과 평가 → 재검토**를 수행하는 LLM 기반 자율 투자 시스템. 에이전트의 도구 선택과 협업, 장기 작업의 지속성, 금융 실행의 정확성을 중심으로 설계·구현했습니다.
+
+- 🧠 **6개 독립 역할** — Research · Risk · Portfolio · Execution · Data · Evaluation이 역할별로 판단하고, 필요에 따라 동료 질의·후속 작업·재검토를 직접 선택
+- 🔧 **Agent Tooling** — 시세·뉴스·공시 수집, 종목별 기억과 평가 갱신, 조건 감시, Python 분석·차트 생성을 도구 호출로 연결
+- 💾 **Durable Execution** — 작업·모델 요청/응답·도구 결과를 SQLite에 영속화하고, 재시작·계약 변경 이후에도 원본 이력과 미완료 작업을 연결해 복구
+- 🛡️ **Execution Integrity** — Portfolio의 자본 배분 권한과 Execution의 주문 결정을 분리하고, 주문 전 권한·현금·보유량·중복을 검증하며 응답이 유실된 주문은 브로커 기록과 대사
+- 🧪 **Isolated Analysis** — Linux namespace·chroot·seccomp 기반 Python 샌드박스에서 데이터 분석과 시각화를 수행하고 입력·코드·결과의 출처를 보존
+- 📊 **Observability & Cost Control** — 읽기 전용 관리자 UI, 계좌 관찰, 비용 원장, 실제 API 토큰 사용량에 따른 모델별 일일 한도 관리
+- ✅ **Validation** — 가짜 모델·브로커를 이용한 오프라인 통합 검증과 재시작·중복 전달·주문 불확실성 회귀 테스트. 실제 장기 수익성과 비용 후 성과는 별도 검증 과제
+- 🏷 Python · OpenAI Responses API · Multi-Agent Systems · Tool Calling · SQLite · KIS Open API · NumPy · Pandas · Matplotlib
+
 #### Object Center Detection (24.01–24.03)
 - [YOLO Cabbage Center Detection](https://github.com/ozingmw/yolo_baechu)
 
