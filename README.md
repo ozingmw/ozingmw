@@ -1,7 +1,26 @@
 # 👋 JongHun Shin
 
-AI Engineer | LLM · Agent System · Emotional Dialogue  
-Robotics × AI × Human Interaction
+AI Engineer | LLM Agents · Personalized Memory · Human–Robot Interaction<br>
+대화의 맥락을 이해하고, 필요한 도구를 실행하며, 실제 로봇과 연결되는 AI 에이전트를 만듭니다.
+
+---
+
+## 🏢 Professional Experience
+
+### Robocare · AI Engineer
+
+#### CM Agent — 동반 로봇 케미의 대화형 AI 런타임
+
+주 업무로 **`cm_agent`의 설계·개발과 ROS2 연동**을 담당합니다. 사용자의 요청을 이해하는 대화 흐름부터 도구 실행, 개인화 메모리, 로봇 응답까지 연결하고, 실제 로봇 환경에서 지속적으로 운영할 수 있도록 개선하고 있습니다.
+
+- **Agent & Tool Orchestration** — LangGraph 기반 메인·전문 에이전트를 구성하고, 날씨·뉴스·일정·음악·로봇 기능을 도구 호출로 연결합니다.
+- **Memory & Interaction** — 단기·벡터·그래프 메모리로 사용자 맥락을 유지하고, 상황에 맞춰 먼저 말을 거는 선제 대화와 다국어·응답 스타일·텍스트 감정 분석 연동을 개발합니다.
+- **Runtime & Reliability** — ROS2 이벤트 연동, 메모리 검색의 부분 실패 대응과 갱신 복구, 도구 실행 추적·회귀 검증, 빌드·배포 흐름을 다룹니다.
+
+**Python · LangGraph · ROS2 · Tool Calling · Vector / Graph Memory**<br>
+→ **[CM Agent Public Showcase](https://github.com/ozingmw/cm_agent_node_public_showcase)** — 공개 가능한 아키텍처, 담당 영역, 주요 개선 사항을 정리했습니다.
+
+그 외 참여 프로젝트: AI 오마카세 로봇 **로미**
 
 ---
 
@@ -44,14 +63,6 @@ Robotics × AI × Human Interaction
 
 ---
 
-## 🏢 Professional Experience
-
-### Robocare
-- AI Agent "케미"
-- AI 오마카세 로봇 "로미"
-
----
-
 ## 🚀 Projects
 
 ### 🧠 Team Projects
@@ -83,16 +94,14 @@ Robotics × AI × Human Interaction
 
 [GitHub Repository](https://github.com/ozingmw/AutoTrading) · [Architecture](https://github.com/ozingmw/AutoTrading/blob/main/docs/ARCHITECTURE.md)
 
-한국·미국 주식을 대상으로 **조사 → 투자 판단 → 주문 실행 → 결과 평가 → 재검토**를 수행하는 LLM 기반 자율 투자 시스템. 에이전트의 도구 선택과 협업, 장기 작업의 지속성, 금융 실행의 정확성을 중심으로 설계·구현했습니다.
+한국·미국 주식을 대상으로 **조사 → 투자 판단 → 주문 실행 → 결과 평가 → 재검토**를 수행하는 LLM 기반 자율 투자 시스템을 설계·구현했습니다.
 
-- 🧠 **6개 독립 역할** — Research · Risk · Portfolio · Execution · Data · Evaluation이 역할별로 판단하고, 필요에 따라 동료 질의·후속 작업·재검토를 직접 선택
-- 🔧 **Agent Tooling** — 시세·뉴스·공시 수집, 종목별 기억과 평가 갱신, 조건 감시, Python 분석·차트 생성을 도구 호출로 연결
-- 💾 **Durable Execution** — 작업·모델 요청/응답·도구 결과를 SQLite에 영속화하고, 재시작·계약 변경 이후에도 원본 이력과 미완료 작업을 연결해 복구
-- 🛡️ **Execution Integrity** — Portfolio의 자본 배분 권한과 Execution의 주문 결정을 분리하고, 주문 전 권한·현금·보유량·중복을 검증하며 응답이 유실된 주문은 브로커 기록과 대사
-- 🧪 **Isolated Analysis** — Linux namespace·chroot·seccomp 기반 Python 샌드박스에서 데이터 분석과 시각화를 수행하고 입력·코드·결과의 출처를 보존
-- 📊 **Observability & Cost Control** — 읽기 전용 관리자 UI, 계좌 관찰, 비용 원장, 실제 API 토큰 사용량에 따른 모델별 일일 한도 관리
-- ✅ **Validation** — 가짜 모델·브로커를 이용한 오프라인 통합 검증과 재시작·중복 전달·주문 불확실성 회귀 테스트. 실제 장기 수익성과 비용 후 성과는 별도 검증 과제
-- 🏷 Python · OpenAI Responses API · Multi-Agent Systems · Tool Calling · SQLite · KIS Open API · NumPy · Pandas · Matplotlib
+- **Multi-Agent Workflow** — 조사·위험·포트폴리오·실행·데이터·평가의 6개 역할이 도구 호출, 동료 질의, 후속 작업으로 협업합니다.
+- **Durable & Controlled Execution** — SQLite 기반 이력·작업 복구, 자본 배분과 주문 권한 분리, 주문 전 검증과 브로커 대사로 실행의 일관성을 관리합니다.
+- **Analysis & Validation** — 격리된 Python 분석 환경, 운영·비용 관찰 UI, 가짜 모델·브로커 기반 통합 검증과 장애 상황 회귀 테스트를 구성했습니다.
+
+**Python · OpenAI Responses API · SQLite · KIS Open API**<br>
+실제 장기 수익성과 비용 후 성과는 별도 검증 과제입니다. 자세한 설계는 위 저장소와 아키텍처 문서에 정리했습니다.
 
 #### Object Center Detection (24.01–24.03)
 - [YOLO Cabbage Center Detection](https://github.com/ozingmw/yolo_baechu)
