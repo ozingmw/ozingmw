@@ -1,0 +1,91 @@
+:root{--ink:#232b29;--muted:#68716d;--green:#165c48;--line:#e3e7e3;--soft:#f2f6f1;--paper:#fff;--sans:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:108px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.85;word-break:keep-all;overflow-wrap:break-word}a{color:inherit;text-decoration:none}a:hover{color:var(--green)}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:3px solid #86b69d;outline-offset:5px}h1,h2,h3,h4,p{margin:0}h2,h3,h4{line-height:1.5}button{font:inherit}ul{padding-left:19px;margin:14px 0 0}li{padding-left:3px;margin:7px 0}li::marker{color:#739483}.skip-link{position:fixed;left:16px;top:-80px;padding:10px 20px;background:var(--green);color:white;z-index:100}.skip-link:focus{top:10px}.site-header{position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96);backdrop-filter:blur(12px)}.header-inner{max-width:1120px;margin:auto;height:76px;display:flex;align-items:center;gap:40px;padding:0 36px}.wordmark{font-size:22px;letter-spacing:-.8px;font-weight:800}.wordmark span{color:var(--green)}nav{display:flex;gap:25px;margin-left:auto;font-size:13px;color:var(--muted)}nav a[aria-current]{color:var(--green);font-weight:700}.print-button{display:flex;align-items:center;gap:8px;background:var(--green);color:white;border:0;border-radius:6px;padding:9px 15px;font-size:12px;cursor:pointer}.print-button:hover{background:#104434}.print-button svg{height:16px;width:16px}main{max-width:1048px;padding:0 36px;margin:auto}.hero{padding:83px 0 62px;max-width:830px}.hero-eyebrow{display:flex;align-items:center;gap:9px;color:var(--green);font-size:13px;font-weight:700;letter-spacing:.8px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}h1{font-size:54px;letter-spacing:-2.6px;line-height:1.35;margin:14px 0 28px}h1 span{font-size:21px;letter-spacing:-.3px;color:var(--muted);font-weight:400;margin-left:20px}.hero-headline{font-size:29px;font-weight:700;letter-spacing:-1px;line-height:1.55;margin-bottom:24px}.intro{max-width:765px;color:#4b5650;font-size:15px}.intro p+p{margin-top:10px}.skills{display:flex;flex-wrap:wrap;gap:7px;margin-top:24px}.skills span{background:var(--soft);border:1px solid #e6ece5;border-radius:4px;padding:3px 9px;font-size:11px;font-weight:600;color:#47604f}.hero-links{display:flex;flex-wrap:wrap;gap:25px;margin-top:27px;font-size:12px;font-weight:700}.hero-links a{border-bottom:1px solid #a3b6ab;padding-bottom:3px}.hero-links span{margin-left:6px;color:var(--green)}.section{display:grid;grid-template-columns:185px 1fr;column-gap:40px;padding:44px 0;border-top:1px solid var(--line)}.section-label>span{font-size:9px;letter-spacing:1.7px;font-weight:700;color:var(--green)}.section-label h2{font-size:20px;letter-spacing:-.6px;margin-top:5px}.section-content{min-width:0}.section-content h3{font-size:20px;letter-spacing:-.4px}.section-content h4{font-size:15px;margin:20px 0 10px}.section-content p{color:#52605a}.job-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px}.job-role{font-size:13px;margin-top:4px}.period{font-size:12px;color:var(--muted);white-space:nowrap}.project-context{font-size:12px;margin-top:5px;color:var(--muted)}.project-areas{border-left:0;padding-left:22px;margin-top:23px}.project-area+.project-area{margin-top:25px}.project-area h5{font-size:15px;margin:0 0 9px;color:#344a3d}.project-tags{font-size:10px;letter-spacing:.3px;margin-top:5px;color:var(--muted)!important}.project-summary{margin-top:14px;font-weight:600;font-size:14px;color:#344a3d!important}.project ul{font-size:14px;color:#52605a}.other-experience{margin-top:26px;background:var(--soft);padding:15px 18px;font-size:12px;border-left:2px solid #aac1af}.other-experience strong{display:block;color:#344a3d;margin-bottom:4px}.publication+.publication{border-top:1px solid var(--line);margin-top:28px;padding-top:28px}.kicker{color:var(--green)!important;letter-spacing:.5px;font-size:10px;font-weight:700;margin-bottom:8px}.publication h3{font-size:18px;line-height:1.5;word-break:normal}.venue{font-size:12px;font-weight:700;margin-top:12px}.authors{font-size:11px;color:var(--muted)!important;margin:3px 0 12px}.publication>p:last-child{font-size:13px}.publication>p{font-size:14px}.research-result{background:var(--soft);padding:13px 17px;margin-top:17px;border-radius:3px}.research-result strong{font-size:14px;color:var(--green)}.research-result small{display:block;font-size:10px;color:var(--muted);margin-top:5px}.automation+.automation{margin-top:23px}.automation h3{font-size:16px}.automation p{font-size:14px;margin-top:7px}.activity{display:grid;grid-template-columns:93px 1fr;gap:18px}.activity+.activity{margin-top:22px}.activity-year{font-size:11px;color:var(--muted);padding-top:3px}.activity h3{font-size:15px}.activity p{font-size:12px;margin-top:3px}.activity-badge{display:inline-block;font-size:9px;font-weight:500;vertical-align:middle;line-height:1.6;padding:1px 6px;margin-left:9px;background:var(--soft);color:var(--green);border-radius:3px}.education h3{font-size:16px}.education p{font-size:12px;margin-top:7px}.education p span{padding:0 10px}.site-footer{max-width:976px;margin:20px auto 0;padding:28px 0 45px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.noscript{padding:40px;text-align:center}
+@media(max-width:760px){html{scroll-padding-top:85px}.header-inner{height:65px;padding:0 22px;gap:15px}nav{gap:14px;font-size:11px}.wordmark{font-size:18px}.print-button{padding:8px 10px;font-size:10px}.print-button svg{display:none}main{padding:0 24px}.hero{padding:52px 0 40px}h1{font-size:43px;margin-bottom:22px}h1 span{font-size:17px;margin-left:13px}.hero-headline{font-size:24px}.intro{font-size:14px}.section{grid-template-columns:1fr;gap:23px;padding:32px 0}.section-label h2{font-size:19px}.section-label>span{font-size:8px}.section-content h3{font-size:18px}.project h3{font-size:17px}.job-heading{flex-wrap:wrap;gap:5px}.period{font-size:11px}.project-areas{padding-left:15px}.project ul{font-size:13px}.publication h3{font-size:17px}.activity{grid-template-columns:76px 1fr;gap:10px}.activity h3{font-size:14px}.site-footer{margin:10px 24px 0}.hero-links{gap:20px;font-size:11px}.publication>p{font-size:13px}}
+@media(max-width:440px){nav{display:none}.print-button{margin-left:auto}.hero-headline{font-size:22px}.hero-links{gap:16px}.activity h3 .activity-badge{margin-left:5px}.section-content .activity h3{font-size:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@page{size:A4;margin:15mm}
+@media print{
+  :root{--ink:#242c28;--muted:#67716a;--line:#dce3dc}html{scroll-behavior:auto}body{font-size:8.5pt;line-height:1.52;background:white;-webkit-print-color-adjust:exact;print-color-adjust:exact}.screen-only,.skip-link{display:none!important}main{max-width:none;padding:0;margin:0}.print-page+.print-page{break-before:page}.hero{padding:0 0 14px;max-width:none}.hero-eyebrow{font-size:8pt;letter-spacing:.5px}.dot{width:5px;height:5px}h1{font-size:27pt;letter-spacing:-1px;margin:6px 0 9px}h1 span{font-size:11pt;margin-left:14px}.hero-headline{font-size:13pt;line-height:1.5;letter-spacing:-.4px;margin:0 0 10px}.hero-headline br{display:none}.hero-headline br:after{content:' '}.intro{font-size:8.4pt;max-width:none}.intro p+p{margin-top:5px}.skills{gap:5px;margin-top:10px}.skills span{font-size:6.7pt;padding:2px 6px}.section{grid-template-columns:103px 1fr;column-gap:21px;padding:16px 0;break-inside:auto}.section-label>span{font-size:5.7pt;letter-spacing:.8px}.section-label h2{font-size:11pt;margin-top:3px;letter-spacing:-.3px}.section-content h3{font-size:10.4pt}.section-content h4{font-size:8.8pt;margin:9px 0 5px}.job-role,.period{font-size:7.2pt}.project-context{font-size:7pt;margin-top:3px}.project-areas{padding-left:12px;margin-top:12px}.project-area{break-inside:avoid}.project-area+.project-area{margin-top:13px}.project-area h5{font-size:8.8pt;margin:0 0 5px}.project-tags{font-size:6.1pt;margin-top:3px}.project-summary{font-size:8pt;margin-top:7px}.project ul{font-size:8.2pt;margin-top:7px;padding-left:13px}li{margin:4px 0;padding-left:1px}.other-experience{font-size:7.4pt;padding:8px 10px;margin-top:12px}.other-experience strong{margin-bottom:2px}.publication{break-inside:avoid}.publication+.publication{margin-top:13px;padding-top:13px}.publication h3{font-size:10pt}.kicker{font-size:6.5pt!important;margin-bottom:5px}.venue{font-size:7.1pt!important;margin-top:6px}.authors{font-size:6.6pt!important;margin:2px 0 6px}.publication>p,.publication>p:last-child{font-size:8pt}.research-result{padding:8px 10px;margin-top:8px}.research-result strong{font-size:8.2pt}.research-result small{font-size:6.5pt;margin-top:3px}.automation{break-inside:avoid}.automation+.automation{margin-top:10px}.automation h3{font-size:8.8pt}.automation p{font-size:8pt;margin-top:4px}.activity{grid-template-columns:67px 1fr;gap:12px;break-inside:avoid}.activity+.activity{margin-top:10px}.activity-year{font-size:6.7pt;padding-top:2px}.activity h3{font-size:8.4pt}.activity p{font-size:7.1pt;margin-top:2px}.activity-badge{font-size:5.7pt;padding:0 4px}.education h3{font-size:8.5pt}.education p{font-size:7.5pt;margin-top:4px}#education{padding-bottom:0}a{color:inherit;text-decoration:none}
+}
+
+.side-project-period{font-size:12px;margin-top:6px}.side-project-role{font-size:12px;font-weight:600;margin-top:5px}.side-project ul{font-size:14px;color:#52605a}.side-project+.side-project{margin-top:26px}
+@media(max-width:760px){.side-project ul{font-size:13px}}
+@media print{.side-project{break-inside:avoid}.side-project-period,.side-project-role{font-size:7pt;margin-top:3px}.side-project ul{font-size:8pt;margin-top:7px;padding-left:13px}}
+
+/* Company-based work history: employer > projects > implementation areas. */
+h5{margin:0;line-height:1.5}.company+.company{margin-top:44px;padding-top:36px;border-top:2px solid var(--line)}.company-projects{margin-top:24px}.company .project>h4{font-size:18px;margin:0 0 12px}.company .project+.project{margin-top:30px;padding-top:25px;border-top:1px solid var(--line)}.project-description{font-size:14px}.company-workflow{margin-top:26px;padding-top:23px;border-top:1px solid var(--line)}.company-workflow>h4{font-size:16px;margin:0 0 14px}.company-workflow h5{font-size:14px;color:#344a3d}.company-workflow .automation+.automation{margin-top:14px}
+@media(max-width:760px){.company .project>h4{font-size:17px}.project-description{font-size:13px}.company+.company{margin-top:32px;padding-top:28px}.company-workflow .automation p{font-size:13px}}
+@media print{.company+.company{margin-top:20px;padding-top:18px}.job-heading{break-after:avoid}.company-projects{margin-top:13px}.company .project>h4{font-size:10pt;margin:0 0 6px;break-after:avoid}.project-description{font-size:8pt}.company .project+.project{margin-top:14px;padding-top:12px}.company-workflow{margin-top:13px;padding-top:11px;break-inside:avoid}.company-workflow>h4{font-size:9pt;margin:0 0 7px}.company-workflow h5{font-size:8pt}.company-workflow .automation+.automation{margin-top:7px}.company-workflow .automation p{font-size:7.8pt;margin-top:3px}}
+
+.activity-badge-award{background:#e2eee6;color:#165c48;font-weight:700}
+.company-workflow .automation p,.publication>p{white-space:pre-line}
+
+/* Comfortable spacing for reading; page count follows the content. */
+@media screen {
+  .hero{padding:100px 0 84px}
+  .hero-headline{margin-bottom:32px}
+  .intro p+p{margin-top:18px}
+  .section{padding:64px 0}
+  .company-projects{margin-top:34px}
+  .company .project>h4{margin-bottom:18px}
+  .project-areas{margin-top:30px;padding-left:26px}
+  .project-area+.project-area{margin-top:34px}
+  .project-area h5{margin-bottom:13px}
+  li{margin:11px 0}
+  .company .project+.project{margin-top:42px;padding-top:36px}
+  .company-workflow{margin-top:40px;padding-top:34px}
+  .company-workflow>h4{margin-bottom:22px}
+  .company-workflow .automation+.automation{margin-top:24px}
+  .side-project+.side-project{margin-top:44px}
+  .side-project ul{margin-top:20px}
+  .publication+.publication{margin-top:38px;padding-top:34px}
+  .activity+.activity{margin-top:26px}
+}
+@media screen and (max-width:760px) {
+  .hero{padding:64px 0 56px}
+  .section{padding:46px 0;row-gap:30px}
+  .project-areas{padding-left:18px}
+  .company .project+.project{margin-top:34px;padding-top:30px}
+  .side-project+.side-project{margin-top:36px}
+}
+@media print {
+  body{line-height:1.6}
+  .print-page+.print-page{break-before:auto}
+  .hero{padding:8px 0 26px}
+  h1{margin:10px 0 16px}
+  .hero-headline{margin-bottom:18px}
+  .intro p+p{margin-top:10px}
+  .section{padding:24px 0}
+  .company-projects{margin-top:20px}
+  .company .project>h4{margin-bottom:10px}
+  .project-areas{margin-top:18px;padding-left:15px}
+  .project-area+.project-area{margin-top:19px}
+  .project-area h5{margin-bottom:8px}
+  li{margin:6px 0}
+  .company .project+.project{margin-top:24px;padding-top:20px}
+  .company-workflow{margin-top:24px;padding-top:20px}
+  .company-workflow>h4{margin-bottom:12px}
+  .company-workflow .automation+.automation{margin-top:13px}
+  .company-workflow .automation p{margin-top:6px}
+  .side-project+.side-project{margin-top:26px}
+  .side-project ul{margin-top:12px}
+  .publication+.publication{margin-top:20px;padding-top:20px}
+  .activity+.activity{margin-top:16px}
+  #side-projects,#research,#activities,#education{break-inside:avoid}
+}
+
+/* Allow the company history to flow across printed pages without moving the entire row. */
+@media print{#experience{display:block;position:relative;padding-bottom:12px}#experience>.section-label{position:absolute;top:24px;left:0;width:103px}#experience>.section-content{margin-left:124px}}
+
+/* Keep company history, personal projects, and research in clear print sections. */
+@media print {
+  .print-page+.print-page{break-before:page}
+  .print-page+.print-page .section{padding:12px 0}
+  .print-page+.print-page li{margin:4px 0}
+  .side-project+.side-project{margin-top:12px}
+  .side-project ul{margin-top:8px}
+  .publication+.publication{margin-top:10px;padding-top:10px}
+  .activity+.activity{margin-top:10px}
+  #research{break-before:page}
+  #education{padding-bottom:0}
+}
